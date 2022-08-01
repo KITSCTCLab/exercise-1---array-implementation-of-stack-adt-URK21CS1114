@@ -24,7 +24,7 @@ class Stack:
     def status(self):
         for elem in self.items:
             print(elem)
-             """Display the stack"""
+    """Display the stack"""
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
