@@ -10,14 +10,14 @@ class Stack:
 
     def is_full(self):
         return len(self.items)==self.size
-    
-       """It returns true if stack is full otherwise it returns false"""
+    """It returns true if stack is full otherwise it returns false"""
 
     def push(self, data):
+         """It pushes an element to stack if stack is not full"""
+
         if not self.is_full():
             self.items.append(data)
-             """It pushes an element to stack if stack is not full"""
-
+            
     def pop(self):
         if not self.is_empty():
             self.items.pop(-1)
